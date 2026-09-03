@@ -61,7 +61,7 @@ ecotrend/
 ├── package.json
 ├── vite.config.js
 └── README.md
-
+```
 ## 🌐 Projeto publicado
 
 **GitHub Pages:**  
