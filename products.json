@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Camiseta de Algodão Orgânico",
+    "category": "Roupas",
+    "price": 89.90,
+    "description": "Camiseta produzida com algodão orgânico.",
+    "image": "/images/camiseta.avif"
+  },
+  {
+    "id": 2,
+    "name": "Ecobag de Algodão",
+    "category": "Acessórios",
+    "price": 39.90,
+    "description": "Ecobag reutilizável para substituir sacolas plásticas.",
+    "image": "/images/ecobag.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Sabonete Natural",
+    "category": "Beleza",
+    "price": 24.90,
+    "description": "Sabonete artesanal feito com ingredientes naturais.",
+    "image": "/images/sabonete.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Garrafa Reutilizável",
+    "category": "Casa",
+    "price": 59.90,
+    "description": "Garrafa reutilizável para reduzir o consumo de plástico.",
+    "image": "/images/garrafa.avif"
+  },
+  {
+    "id": 5,
+    "name": "Carregador Solar",
+    "category": "Tecnologia",
+    "price": 149.90,
+    "description": "Carregador portátil alimentado por energia solar.",
+    "image": "/images/placa.avif"
+  },
+  {
+    "id": 6,
+    "name": "Vela de Cera Natural",
+    "category": "Casa",
+    "price": 44.90,
+    "description": "Vela artesanal produzida com cera natural.",
+    "image": "/images/vela.avif"
+  }
+]
