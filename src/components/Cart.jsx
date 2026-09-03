@@ -67,7 +67,7 @@ function Cart({
               >
 
                 <img
-                  src={item.image}
+                  src={`${import.meta.env.BASE_URL}${item.image.replace(/^\//, "")}`}
                   alt={item.name}
                 />
 
