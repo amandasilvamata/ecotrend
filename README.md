@@ -1,16 +1,81 @@
-# React + Vite
+# 🌱 EcoTrend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-commerce de produtos sustentáveis desenvolvido como projeto acadêmico.
 
-Currently, two official plugins are available:
+A EcoTrend é uma loja virtual criada com o objetivo de apresentar produtos ecológicos e incentivar escolhas de consumo mais conscientes, proporcionando uma experiência de compra simples, moderna e dinâmica.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛍️ Funcionalidades
 
-## React Compiler
+- Catálogo de produtos sustentáveis
+- Carregamento dos produtos através de arquivo JSON
+- Requisição HTTP utilizando Fetch API (GET)
+- Filtro de produtos por categoria
+- Filtro de produtos por preço
+- Carrinho de compras dinâmico
+- Adição de produtos ao carrinho
+- Alteração da quantidade de produtos
+- Remoção de produtos do carrinho
+- Atualização instantânea do valor total
+- Persistência do carrinho utilizando LocalStorage
+- Simulação de finalização de compra utilizando Promises
+- Processamento assíncrono com loading spinner
+- Interface responsiva
+- Ícones utilizando Font Awesome
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💻 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- JSON
+- Fetch API
+- Promises
+- Async/Await
+- LocalStorage
+- Font Awesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Estrutura do projeto
+
+```text
+ecotrend/
+├── public/
+│   ├── images/
+│   │   ├── camiseta.jpg
+│   │   ├── ecobag.jpg
+│   │   ├── sabonete.jpg
+│   │   ├── garrafa.jpg
+│   │   ├── carregador-solar.jpg
+│   │   └── vela.jpg
+│   └── products.json
+│
+├── src/
+│   ├── components/
+│   │   └── Cart.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+
+## 🌐 Projeto publicado
+
+**GitHub Pages:**  
+[https://amandasilvamata.github.io/ecotrend/](https://amandasilvamata.github.io/ecotrend/)
+
+**Repositório:**  
+[https://github.com/amandasilvamata/ecotrend](https://github.com/amandasilvamata/ecotrend)
+
+## 👩‍💻 Integrante
+
+**Amanda Silva da Mata**
+
+Projeto desenvolvido individualmente para fins acadêmicos.
+
+## 🌱 Objetivo
+
+A EcoTrend busca demonstrar como tecnologias de desenvolvimento web podem ser utilizadas para criar uma aplicação de e-commerce funcional, utilizando conceitos de manipulação do DOM, componentes React, armazenamento local, requisições assíncronas e gerenciamento dinâmico de dados.
